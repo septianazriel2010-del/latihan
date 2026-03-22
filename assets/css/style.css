@@ -1,0 +1,69 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.hero .judul h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero {
+    margin-top: 120px;
+    margin-left: 60px;
+}
+.hero .judul h1 span {
+    color: burlywood;
+}
+body {
+
+    background-image:url('../img/img1-min.jpg');
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+.hero .judul h1 {
+    color: #d6cece;
+}
+.hero .isi {
+    color: hsl(45, 84%, 51%);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero .register i {
+    color: white;
+    margin-right: 8px;
+}
+.hero .register {
+    margin-top: 20px;
+    border: 1px solid burlywood;
+    width: 200px;
+    background: burlywood;
+    height: 40px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.hero .register a {
+    text-decoration: none;
+    align-items: center;
+    color: aliceblue;
+    display: inline-flex;
+    margin-left: 25px;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #545452;
+}
+.hero .register:hover {
+    background-color: #b7976d;
+    transition: 200ms;
+}
